@@ -8,7 +8,7 @@ Azure Service Bus is a fully managed enterprise message broker that allows appli
 
 The **Publish/Subscribe (Pub/Sub)** pattern is a messaging pattern where senders (publishers) send messages without knowing the recipients (subscribers). Subscribers express interest in specific types of messages, and the messaging system ensures that only the relevant subscribers receive those messages. This decouples the producers and consumers, making the system more scalable and flexible.
 
-![Pub/Sub Pattern](./assets/pub-sub-pattern.png)
+![Pub/Sub Pattern](./assets/pub-sub-pattern.jpg)
 
 ---
 
@@ -27,7 +27,7 @@ Azure Service Bus queues are ideal for scenarios where:
 - Task scheduling and background job processing.
 - Decoupling microservices in a distributed architecture.
 
-![Azure Service Bus Queue](./assets/message-queue.png)
+![Azure Service Bus Queue](./assets/about-service-bus-queue.png)
 
 ---
 
@@ -45,7 +45,7 @@ Azure Service Bus topics and subscriptions are ideal for scenarios where:
 - Real-time notifications to multiple systems or users.
 - Broadcasting updates to multiple services or applications.
 
-![Azure Service Bus Topics and Subscriptions](./assets/topics-subscriptions.png)
+![Azure Service Bus Topics and Subscriptions](./assets/about-service-bus-topic.png)
 
 ---
 
